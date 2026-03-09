@@ -1,0 +1,17 @@
+[
+  {
+    "name": "failed_ssh_login",
+    "regex": "Failed password for|authentication failure|Invalid user",
+    "description": "Failed SSH/PAM authentication"
+  },
+  {
+    "name": "service_error",
+    "regex": "\\b(error|failed|fatal|panic)\\b",
+    "description": "General service failures"
+  },
+  {
+    "name": "disk_warning",
+    "regex": "(I/O error|disk full|out of space|EXT4-fs warning|SMART error)",
+    "description": "Disk and filesystem issues"
+  }
+]

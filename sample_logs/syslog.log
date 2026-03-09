@@ -1,0 +1,5 @@
+Jun 12 09:15:22 web01 systemd[1]: nginx.service: Failed with result 'exit-code'.
+Jun 12 09:15:22 web01 systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Jun 12 09:17:48 web01 kernel: EXT4-fs warning (device sda1): ext4_end_bio:342: I/O error 10 writing to inode 1518823
+Jun 12 09:18:00 web01 smartd[441]: Device: /dev/sda [SAT], SMART error log contains 1 ATA error
+Jun 12 09:22:11 web01 app-api[884]: fatal: database connection timeout error
